@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#share-container span {
+    display: block;
+    margin: 3rem auto;
+    font-size: 50px;
+    padding: 1rem;
+    margin: 1rem;
+    }
+    #share-buttons i {
+    font-size: 50px;
+    margin: 20px;
+    }
+    .facebook {
+    color: #3b5998;
+    }
+    .twitter {
+    color: #55acee;
+    }
+    .linkedin {
+    color: #0077b5;
+    }
+    .reddit {
+    color: #cb2027;
+    }
+    .whatsapp {
+    color: #25D366;
+    }
+    .telegram {
+    color: #229ED9;
+    }
+    .facebook, .twitter, .linkedin, .reddit, .whatsapp, .telegram {
+    opacity: 0.6;
+    }
+    .facebook:hover, .twitter:hover, .linkedin:hover, .reddit:hover, .whatsapp:hover, .telegram:hover {
+    opacity: 0.9;
+    }
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(247, 227, 244);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: rgb(241, 185, 234);
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title, 
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
+
